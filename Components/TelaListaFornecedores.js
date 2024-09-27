@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { View, Text, FlatList, TouchableOpacity, Image, StyleSheet } from 'react-native';
-import { FornecedorContext } from '../Context/FornecedorContext';
+import { FornecedorContext } from '../Contexto/FornecedorContext';
 
 const TelaListaFornecedores = ({ navigation }) => {
   const { fornecedores, removerFornecedor } = useContext(FornecedorContext);

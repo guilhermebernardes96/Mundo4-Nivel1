@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import TelaInicial from './Components/TelaInicial';
 import TelaFormularioFornecedor from './Components/TelaFormularioFornecedor';
 import TelaListaFornecedores from './Components/TelaListaFornecedores';
-import { FornecedorProvider } from './Context/FornecedorContext';
+import { FornecedorProvider } from './Contexto/FornecedorContext';
 
 const Stack = createStackNavigator();
 

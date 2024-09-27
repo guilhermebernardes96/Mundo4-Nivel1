@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, TextInput, Button, Image, TouchableOpacity, StyleSheet } from 'react-native';
-import { FornecedorContext } from '../Context/FornecedorContext';
+import { FornecedorContext } from '../Contexto/FornecedorContext';
 
 const TelaFormularioFornecedor = ({ route, navigation }) => {
   const { adicionarFornecedor, atualizarFornecedor } = useContext(FornecedorContext);
